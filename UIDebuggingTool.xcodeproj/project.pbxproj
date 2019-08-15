@@ -13,7 +13,8 @@
 		A6F5411A1FD7D93E002A3D24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6F541191FD7D93E002A3D24 /* Assets.xcassets */; };
 		A6F5411D1FD7D93E002A3D24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6F5411B1FD7D93E002A3D24 /* LaunchScreen.storyboard */; };
 		A6F541201FD7D93F002A3D24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F5411F1FD7D93F002A3D24 /* main.m */; };
-		A6F541271FD7D99D002A3D24 /* UIDebuggingInformationOverlay+Enable.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F541261FD7D99D002A3D24 /* UIDebuggingInformationOverlay+Enable.m */; };
+		E273C8482305331B00A36CD8 /* UIDebuggingInformationOverlay+Enable.m in Sources */ = {isa = PBXBuildFile; fileRef = E273C8452305331B00A36CD8 /* UIDebuggingInformationOverlay+Enable.m */; };
+		E273C8492305331B00A36CD8 /* UIDebuggingTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E273C8472305331B00A36CD8 /* UIDebuggingTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +28,9 @@
 		A6F5411C1FD7D93E002A3D24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A6F5411E1FD7D93F002A3D24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6F5411F1FD7D93F002A3D24 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A6F541261FD7D99D002A3D24 /* UIDebuggingInformationOverlay+Enable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDebuggingInformationOverlay+Enable.m"; sourceTree = "<group>"; };
+		E273C8452305331B00A36CD8 /* UIDebuggingInformationOverlay+Enable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDebuggingInformationOverlay+Enable.m"; sourceTree = "<group>"; };
+		E273C8462305331B00A36CD8 /* UIDebuggingTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIDebuggingTool.h; sourceTree = "<group>"; };
+		E273C8472305331B00A36CD8 /* UIDebuggingTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIDebuggingTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +63,7 @@
 		A6F5410F1FD7D93E002A3D24 /* UIDebuggingTool */ = {
 			isa = PBXGroup;
 			children = (
-				A6F541261FD7D99D002A3D24 /* UIDebuggingInformationOverlay+Enable.m */,
+				E273C8442305331B00A36CD8 /* UIDebuggingTool */,
 				A6F541101FD7D93E002A3D24 /* AppDelegate.h */,
 				A6F541111FD7D93E002A3D24 /* AppDelegate.m */,
 				A6F541131FD7D93E002A3D24 /* ViewController.h */,
@@ -70,6 +73,16 @@
 				A6F5411B1FD7D93E002A3D24 /* LaunchScreen.storyboard */,
 				A6F5411E1FD7D93F002A3D24 /* Info.plist */,
 				A6F5411F1FD7D93F002A3D24 /* main.m */,
+			);
+			path = UIDebuggingTool;
+			sourceTree = "<group>";
+		};
+		E273C8442305331B00A36CD8 /* UIDebuggingTool */ = {
+			isa = PBXGroup;
+			children = (
+				E273C8452305331B00A36CD8 /* UIDebuggingInformationOverlay+Enable.m */,
+				E273C8462305331B00A36CD8 /* UIDebuggingTool.h */,
+				E273C8472305331B00A36CD8 /* UIDebuggingTool.m */,
 			);
 			path = UIDebuggingTool;
 			sourceTree = "<group>";
@@ -146,8 +159,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6F541151FD7D93E002A3D24 /* ViewController.m in Sources */,
-				A6F541271FD7D99D002A3D24 /* UIDebuggingInformationOverlay+Enable.m in Sources */,
+				E273C8482305331B00A36CD8 /* UIDebuggingInformationOverlay+Enable.m in Sources */,
 				A6F541201FD7D93F002A3D24 /* main.m in Sources */,
+				E273C8492305331B00A36CD8 /* UIDebuggingTool.m in Sources */,
 				A6F541121FD7D93E002A3D24 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

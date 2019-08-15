@@ -14,21 +14,8 @@
 
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
-#if DEBUG
-    
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Warc-performSelector-leaks"
-    id overlayClass = NSClassFromString(@"UIDebuggingInformationOverlay");
-    [overlayClass performSelector:NSSelectorFromString(@"prepareDebuggingOverlay")];
-#pragma clang diagnostic pop
-    
-#endif
-    
     return YES;
 }
-
 
 @end
